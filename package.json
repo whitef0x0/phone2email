@@ -22,5 +22,6 @@
     "serve-favicon": "~2.3.0",
     "twilio": "^2.5.2",
     "forever": "~0.15.1",
+    "sms-address": "whitef0x0/sms-address"
   }
 }
