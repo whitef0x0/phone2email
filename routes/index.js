@@ -2,13 +2,13 @@ var express = require('express'),
 	router = express.Router(),
 	LookupsClient = require('twilio').LookupsClient,
 	smsAddress = require('sms-address');
-
+var debug = require('debug')('phone2email:server');
 var client = new LookupsClient(process.env.TWILIO_ACCOUNT_SID, process.env.TWILIO_AUTH_TOKEN);
 
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  	res.render('index', { title: 'Phone2Email' });
+  	res.render('index', { title: 'Phone2Email', googleAnalyticsKey: process.env.GOOGLE_ANALYTICS_KEY});
 });
 
 /* Lookup Phone number */
@@ -19,10 +19,9 @@ router.get('/lookupPhone/:number', function(req, res, next) {
 		type: 'carrier',
 	}, function(error, number) {
 		if(error){
-			console.log(error);
+			debug(error);
 			next(error);
 		}
-		console.log(number);
 		if(number.carrier.type !== 'voip'){
 			var result = {
 		    	carrier: number.carrier.name,
