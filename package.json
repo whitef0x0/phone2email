@@ -12,14 +12,15 @@
   "license": "MIT",
   "dependencies": {
     "body-parser": "~1.13.2",
+    "bower": "^1.6.5",
     "cookie-parser": "~1.3.5",
     "debug": "~2.2.0",
     "express": "~4.13.1",
+    "forever": "~0.15.1",
     "jade": "~1.11.0",
     "morgan": "~1.6.1",
     "serve-favicon": "~2.3.0",
-    "twilio": "^2.5.2",
-    "forever": "~0.15.1",
-    "sms-address": "whitef0x0/sms-address"
+    "sms-address": "whitef0x0/sms-address",
+    "twilio": "^2.5.2"
   }
 }
