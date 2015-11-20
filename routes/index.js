@@ -25,7 +25,7 @@ router.get('/lookupPhone/:number', function(req, res, next) {
 		if(number.carrier.type !== 'voip'){
 			var result = {
 		    	carrier: number.carrier.name,
-		    	email: smsAddress(phoneNumber, number.carrier.name),
+		    	email: smsAddress(number.national_format, number.carrier.name),
 		    	country: number.country_code,
 		    };
 
