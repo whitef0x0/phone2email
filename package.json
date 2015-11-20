@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "postinstall": "bower install --config.interactive=false;",
+    "postinstall": "bower install --config.interactive=false;"
   },
   "authors": [
     "David Baldwynn <polydaic@gmail.com>"
