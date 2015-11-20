@@ -3,7 +3,7 @@ body {
     color: white;
     font-family: 'Crete Round', serif;
 }
-#titleRow h1 {
+#titleRow h1, #titleRow h1 a {
     font-size: 72px;
     color: white;
 }
