@@ -1,5 +1,5 @@
 body {
-    background: #97D3BA;
+    background: #2BA6CB;
     color: white;
     font-family: 'Crete Round', serif;
 }
@@ -13,10 +13,10 @@ input.colorBox {
     height: 70%;
     padding: 3% 0 3% 0;
     outline: none;
-    color: #97D3BA;
+    color: #F81E63;
     font-size: 30px;
     text-align: center;
-    border: 10px solid #97D3BA;
+    border: 10px solid #F81E63;
     margin: 0px;
 }
 #colorsRow label,
