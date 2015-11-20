@@ -1,0 +1,25 @@
+{
+  "name": "phone2email",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "postinstall": "bower install --config.interactive=false;",
+  },
+  "authors": [
+    "David Baldwynn <polydaic@gmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "jade": "~1.11.0",
+    "morgan": "~1.6.1",
+    "serve-favicon": "~2.3.0",
+    "twilio": "^2.5.2",
+    "forever": "~0.15.1",
+    "sms-address": "whitef0x0/sms-address"
+  }
+}

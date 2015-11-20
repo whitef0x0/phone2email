@@ -1,0 +1,28 @@
+{
+  "name": "phone2email",
+  "description": "",
+  "version": "0.0.1",
+  "main": "app.js",
+  "authors": [
+    "David Baldwynn <david.baldwin@alumni.ubc.ca>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "https://github.com/whitef0x0/phone2email",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "public/lib"
+  ],
+  "dependencies": {
+    "zepto": "~1.1.6"
+  },
+  "keywords": [
+    "sms-gateway",
+    "sms-conversion"
+  ]
+}

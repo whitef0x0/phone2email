@@ -1,0 +1,25 @@
+extends layout
+
+block content
+
+	div.row#titleRow
+		div.six.mobile-one.columns.centered.text-center
+			h1
+				a(href="http://phone2email.com")=title
+
+	div.row#colorsRow
+		div.six.mobile-one.columns.centered.text-center
+			input(type="tel" placeholder="1-xxx-xxx-xxxx" tabindex="1").colorBox#phoneNumber
+			label enter phone number
+
+	div.row#resultRow
+		div.four.mobile-one.columns.text-center.offset-by-one.colorContainer
+			div.resultBox#carrier
+			label carrier
+		div.two.mobile-one.columns.text-center.colorContainer
+			div.resultBox#country
+			label country
+
+		div.four.mobile-one.columns.end.text-center.colorContainer
+			div.resultBox#email
+			label email

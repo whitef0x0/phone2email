@@ -1,0 +1,46 @@
+body {
+    background: #97D3BA;
+    color: white;
+    font-family: 'Crete Round', serif;
+}
+#titleRow h1 {
+    font-size: 72px;
+    color: white;
+}
+input.colorBox {
+    display: inline-block;
+    width: 60%;
+    height: 70%;
+    padding: 3% 0 3% 0;
+    outline: none;
+    color: #97D3BA;
+    font-size: 30px;
+    text-align: center;
+    border: 10px solid #97D3BA;
+    margin: 0px;
+}
+#colorsRow label,
+#resultRow label {
+    color: white;
+    font-size: 36px;
+}
+
+#resultRow {
+	padding-top: 5%;
+}
+.colorContainer {
+    padding-bottom: 5px!important;
+}
+.resultBox {
+    width: 130px;
+    height: 130px;
+    border: 10px solid white;
+    display: inline-block;
+    font-size: 60px;
+    padding-top: 12.5%;
+}
+
+.resultBox#email, .resultBox#carrier {
+	width: 100%;
+	font-size: 25px;
+}
